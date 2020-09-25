@@ -2,8 +2,29 @@
 <html lang="en">
     <head>
         <title>Google Search</title>
+        <style>
+            h1 {
+                text-align: center;
+                font-size: 100px;
+            }
+
+            form {
+                text-align: center;
+            }
+
+            form #bar{
+                width: 400px;
+                margin: 15px;
+                border-radius: 16px;
+                height: 30px;
+            }
+        </style>
     </head>
     <body>
-        <h1>This is the Start!</h1>
+        <h1>Google!</h1>
+        <form action='https://google.com/search'>
+            <input id='bar' type='text' name='q'><br>
+            <input id='button' type='submit' value='Google Search'>
+        </form>
     </body>
 </html>
